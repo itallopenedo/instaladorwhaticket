@@ -16,7 +16,7 @@ frontend_node_dependencies() {
 
   sudo su - owenzap <<EOF
   cd /home/owenzap/${instancia_add}/frontend
-  npm install
+  npm install --legacy-peer-deps
 EOF
 
   sleep 2
